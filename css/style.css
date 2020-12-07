@@ -1,0 +1,1163 @@
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            scroll-behavior: smooth;
+        }
+        
+        ul,
+        ol {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            display: inline-block;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            margin-bottom: 50px;
+        }
+        /* all common css */
+        
+        #menu {
+            padding-bottom: 10px;
+            background: #150035;
+            z-index: 999;
+            margin-top: -20px;
+        }
+        
+        .menubg {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 999999;
+            background: #000 !important;
+            animation: menu_scrl 1s;
+        }
+        
+        @keyframes menu_scrl {
+            from {
+                top: -100px;
+            }
+            to {
+                top: 0;
+            }
+        }
+        
+        .navbar-brand {
+            height: 100px;
+            width: 200px;
+        }
+        
+        .navbar-brand img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #944bff;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            transition: all linear .5s;
+        }
+        
+        .navbar-expand-lg .navbar-collapse {
+            padding-top: 40px;
+            margin-right: -50px;
+        }
+        
+        .navbar-nav .nav-item:hover .nav-link {
+            color: #c514a3;
+        }
+        
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding: 0 20px;
+        }
+        
+        .btn a {
+            text-decoration: none;
+            padding: 10px 25px;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            background-image: linear-gradient(#9e4efc, #570dc8);
+            text-shadow: 3px 3px 2px #000000;
+            box-shadow: 0px 5px 0px #3a0090;
+            border-radius: 5px;
+        }
+        
+        .btn a:hover {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            box-shadow: 0px 5px 0px #661355;
+        }
+        
+        #menu .active {
+            color: #c514a3;
+        }
+        /* navbar part end */
+        /* banner part start */
+        
+        #banner {
+            padding-top: 50px;
+            padding-bottom: 150px;
+            background: #150035;
+        }
+        
+        .banner_image img {
+            margin-left: -100px;
+        }
+        
+        .banner_text {
+            margin-top: 80px;
+            margin-left: -50px;
+        }
+        
+        .banner_text h6 {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .banner_text h1 {
+            font-size: 330px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 46%, #e58716 50%, #fcb100);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-top: -45px;
+        }
+        
+        .banner_text p {
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            line-height: 26px;
+            margin-top: -40px;
+        }
+        /* banner part end */
+        /* register part start */
+        
+        .get_ready {
+            position: relative;
+            top: -100px;
+        }
+        
+        .register {
+            padding: 20px 0 10px 0;
+            background-image: linear-gradient(to right, #9e4efc, #580ec8);
+            border-bottom: 5px solid #2e036e;
+            box-shadow: inset 20px 0px 100px 0px #1f074380;
+        }
+        
+        .register h1 {
+            font-size: 50px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            padding-bottom: 20px;
+            background: linear-gradient(#fcb100 30%, #e58716 40%, #fcb1);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        
+        .register h2 {
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            padding-bottom: 10px;
+            text-shadow: 5px 5px 5px #000;
+        }
+        
+        .register p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+        }
+        
+        .reg_01 {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .reg_03 {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        /* register part end */
+        /* games part start */
+        
+        #games {
+            padding-top: 180px;
+            padding-bottom: 100px;
+            background: #0b001b;
+            margin-top: -205px;
+        }
+        
+        .games_heading h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 40%, #e58716 50%, #fcb1);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-bottom: 50px;
+        }
+        
+        .casino_game {
+            position: relative;
+        }
+        
+        .casino_overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(19, 7, 61, 0.85);
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: .5s;
+        }
+        
+        .casino_game:hover .casino_overlay {
+            opacity: 1;
+        }
+        
+        .slick-center .casino_overlay {
+            opacity: 1;
+        }
+        
+        .casino_overlay h2 {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .casino_overlay button {
+            position: absolute;
+            left: 50%;
+            bottom: 7%;
+            transform: translate(-50%, -50%);
+        }
+        /* games part end */
+        /* unlock part start */
+        
+        #unlock {
+            padding-top: 100px;
+            background: #150035;
+        }
+        
+        .unlock_text {
+            padding-top: 70px;
+        }
+        
+        .unlock_text h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 40%, #e58716 50%, #fcb1);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-bottom: 50px;
+        }
+        
+        .unlock_text P {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .unlock_text P span {
+            display: block;
+            padding-top: 20px;
+        }
+        /* unlock part end */
+        /* pricing part start */
+        
+        #pricing {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: #0b001b;
+        }
+        
+        .pricing_head_text h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 50%, #e58716 40%, #fcb1);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+        }
+        
+        .pricing_plan {
+            padding-top: 90px;
+        }
+        
+        .plan {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-image: linear-gradient(#9e4efc, #580ec8);
+            border-radius: 5px;
+            position: relative;
+            transition: 0.5s;
+        }
+        
+        .plan h1 {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            padding-bottom: 15px;
+        }
+        
+        .plan h2 {
+            color: #fff;
+            font-size: 50px;
+            font-weight: 700;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .plan p {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            padding-top: 10px;
+        }
+        
+        .plan .brdr_btm {
+            border-bottom: 1px solid #6427b5;
+            padding-bottom: 25px;
+        }
+        
+        .plan .choose {
+            position: absolute;
+            left: 50%;
+            bottom: -30px;
+            transform: translateX(-50%);
+        }
+        
+        .plan .feature {
+            width: 100%;
+            background-image: linear-gradient(#ff39dc, #a60084);
+            box-shadow: 0px 5px 0px #661355;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding: 15px 0;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+            text-shadow: 2px 2px 2px #000000;
+            border: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: 0.5s;
+        }
+        
+        .plan:hover .feature {
+            opacity: 1;
+        }
+        
+        .plan:hover .choose a {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            box-shadow: 0px 5px 0px #661355;
+        }
+        
+        .plan_text {
+            transition: 0.5s;
+        }
+        
+        .plan:hover {
+            margin-top: -30px;
+        }
+        
+        .plan:hover .plan_text {
+            margin-top: 50px;
+        }
+        /* pricing part end */
+        /* faq part start */
+        
+        #faq {
+            padding: 100px 0;
+            background: #150035;
+        }
+        
+        .faq_head {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #000;
+        }
+        
+        .faq_head h1 {
+            font-size: 40px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 50%, #e58716 40%, #f3e3dd11);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-bottom: 30px;
+        }
+        
+        #faq .accordian_part {
+            margin-top: 50px;
+        }
+        
+        #faq .card {
+            border: none;
+            background: transparent;
+            padding: 15px 0;
+        }
+        
+        #faq .card-header {
+            border-bottom: none;
+        }
+        
+        #faq .btn-link {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        #faq .btn {
+            padding: 0;
+        }
+        
+        #faq .btn-link:hover {
+            text-decoration: none;
+            box-shadow: none;
+        }
+        
+        #faq .btn-link:focus {
+            text-decoration: none;
+            box-shadow: none;
+        }
+        
+        #faq .fas.fa-sort-down {
+            position: absolute;
+            right: 5%;
+        }
+        
+        #faq .card-body {
+            padding-right: 0;
+        }
+        
+        #faq .card-body p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            line-height: 26px;
+        }
+        
+        #faq .card.crd_brdr {
+            border: 1px solid #fcb100;
+            padding-right: 5px;
+        }
+        
+        .tournamnt_head {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #000;
+        }
+        
+        .tournamnt_head h1 {
+            font-size: 40px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 50%, #e58716 40%, #f3e3dd11);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-bottom: 30px;
+        }
+        /* countdown part */
+        
+        .countdown_part {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .countdown_part p {
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+            line-height: 70px;
+        }
+        
+        #getting-started {
+            display: flex;
+        }
+        
+        #getting-started div {
+            text-align: center;
+            margin-right: 20px;
+            border: 1px solid #fcb100;
+            border-radius: 5px;
+        }
+        
+        #getting-started div span {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            display: block;
+            padding: 5px 10px;
+        }
+        
+        #getting-started div span:nth-child(2) {
+            margin-top: -10px;
+        }
+        /* scrollbar part */
+        
+        .scrollbar {
+            height: 300px;
+            padding-right: 15px;
+            overflow: scroll;
+        }
+        
+        .scrollbar p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+        }
+        
+        .winner {
+            margin-bottom: 20px;
+            border-bottom: 3px solid #000;
+        }
+        /* faq part end */
+        /* subscribe part start */
+        
+        #subscribe {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-image: linear-gradient(#9e4efc, #590fca);
+            box-shadow: 0px 5px 0px #3a0090;
+        }
+        
+        .subcription h1 {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            padding-bottom: 15px;
+            text-shadow: 5px 5px 0 #5813b8;
+        }
+        
+        .sub_form input {
+            height: 40px;
+            width: 100%;
+            border: 1px solid #3a0090;
+            padding-left: 15px;
+            background: transparent;
+        }
+        
+        .sub_form input::placeholder {
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #3a0090;
+        }
+        
+        .sub_form {
+            position: relative;
+        }
+        
+        .sub_btn {
+            position: absolute;
+            right: 0;
+            top: 0px;
+            height: 40px;
+            width: 50px;
+            background: transparent;
+            border: none;
+            border-left: 1px solid #3a0090;
+        }
+        
+        .payment h1 {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            padding-bottom: 15px;
+            text-shadow: 5px 5px 0 #5813b8;
+        }
+        
+        .payment img {
+            margin-left: 10px;
+        }
+        /* subscribe part end */
+        /* footer part start */
+        
+        #footer .b_b {
+            height: 1px;
+            width: 100%;
+            background-image: linear-gradient(to right, #000, #000, #fff, #000, #000, #000, #000, #fff, #000, #000);
+            margin-top: 50px;
+        }
+        
+        #footer {
+            padding-top: 50px;
+            background: #0b001b;
+        }
+        
+        .footer_about h1 {
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+        
+        .footer_about p {
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+        
+        .footer_about_icon a {
+            font-size: 20px;
+            color: #fff;
+            height: 50px;
+            width: 50px;
+            background-image: linear-gradient(#9e4efc, #570dc8);
+            text-shadow: 3px 3px 2px #000000;
+            box-shadow: 0px 5px 0px #3a0090;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 50px;
+        }
+        
+        .footer_about_icon a:hover {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            box-shadow: 0px 5px 0px #661355;
+        }
+        
+        .footer_links h1 {
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+        
+        .imp_links p {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .security_info h1 {
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            padding-bottom: 20px;
+        }
+        
+        .security_icon {
+            margin-bottom: 20px;
+        }
+        
+        .security_icon p {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            padding-top: 10px;
+        }
+        /* footer part end */
+        /* copyright part start */
+        
+        #copyright {
+            padding: 20px 0;
+            background: #0b001b;
+        }
+        
+        .copy_text p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        }
+        /* copyright part end */
+        /* ............home page end............... */
+        /* ............about page start.............. */
+        /* about banner part start */
+        
+        #about_banner {
+            padding: 100px 0 210px 0;
+            background: #150035;
+        }
+        
+        .about_banner_text h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 50%, #e58716 40%, #f3e3dd11);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+        }
+        
+        .about_banner_text a {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+            text-shadow: 3px 6px 0px #1f004f;
+            display: inline-block;
+        }
+        
+        .about_banner_text span {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            text-shadow: 3px 6px 0px #1f004f;
+            padding: 0 5px;
+            text-decoration: none;
+        }
+        
+        .about_banner_text a:hover {
+            text-decoration: none;
+        }
+        
+        .about_banner_text a.active {
+            color: #ff39dc;
+        }
+        /* about banner part end */
+        /* about video part start */
+        
+        #about_video {
+            padding-top: 220px;
+            padding-bottom: 50px;
+            background: #0e0120;
+            margin-top: -205px;
+        }
+        
+        .unlock_text {
+            padding-top: 70px;
+        }
+        
+        .unlock_text h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 40%, #e58716 50%, #fcb1);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-bottom: 50px;
+        }
+        
+        .unlock_text P {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .unlock_text P span {
+            display: block;
+            padding-top: 20px;
+        }
+        
+        .about_vdo_play .vdo_ply i {
+            color: #fff;
+            height: 50px;
+            width: 50px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 50px;
+            background-image: linear-gradient(#9e4efc, #570dc8);
+            text-shadow: 3px 3px 2px #000000;
+            transition: 0.5s;
+        }
+        
+        .about_vdo_play:hover a {
+            text-decoration: none;
+        }
+        
+        .about_vdo_play .vdo_ply span {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            margin-left: 10px;
+            transition: 0.5s;
+        }
+        
+        .about_vdo_play .vdo_ply:hover i {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            text-shadow: 3px 3px 2px #000000;
+        }
+        
+        .about_vdo_play .vdo_ply:hover span {
+            color: #a60084;
+        }
+        /* about video part end */
+        /* about casino part start */
+        
+        #about_games {
+            padding-top: 100px;
+            padding-bottom: 150px;
+            background: #150035;
+        }
+        
+        .about_games_heading h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            background: linear-gradient(#fcb100 40%, #e58716 50%, #fcb1);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            filter: drop-shadow(0 0 30px #460e3a);
+            margin-bottom: 50px;
+        }
+        
+        .about_casino_game {
+            position: relative;
+        }
+        
+        .about_casino_overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #13073dd9;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: .5s;
+        }
+        
+        .about_casino_game:hover .about_casino_overlay {
+            opacity: 1;
+        }
+        
+        .slick-center .about_casino_overlay {
+            opacity: 1;
+        }
+        
+        .about_casino_overlay h2 {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .about_casino_overlay button {
+            position: absolute;
+            left: 50%;
+            bottom: 7%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #about_games ul li button {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            font-size: 0;
+            background: #570dc8;
+            outline: 0;
+            box-shadow: 0px 3px 0px #3a0090;
+            border: none;
+        }
+        
+        #about_games ul li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        
+        #about_games ul {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -25%;
+        }
+        
+        #about_games ul .slick-active button {
+            background: #c902a1;
+            border: none;
+            box-shadow: 0px 3px 0px #a60084;
+        }
+        /* about casino part end */
+        /* ................about page end................ */
+        /* ................pricing page page................ */
+        
+        #pricing_plan {
+            padding-top: 220px;
+            padding-bottom: 100px;
+            background: #0b001b;
+            margin-top: -205px;
+        }
+        /* ................pricing page end................ */
+        /* .................contact page start.............. */
+        
+        #contact {
+            padding-top: 260px;
+            padding-bottom: 130px;
+            background: url(../images/05_Contact_us_back.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: -205px;
+        }
+        
+        .cntct_icon {
+            margin-top: 5px;
+        }
+        
+        .cntct_address {
+            margin-left: 20px;
+        }
+        
+        .cntct_icon i {
+            font-size: 30px;
+            color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            background-image: linear-gradient(#9e4efc, #570dc8);
+            text-shadow: 3px 3px 2px #000000;
+            border-bottom: 5px solid #3a0090;
+            transition: 0.5s;
+        }
+        
+        .cntct_icon i:hover {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            border-bottom: 5px solid #a60084;
+        }
+        
+        .cntct_address h1 {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        
+        .cntct_address p {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+        }
+        /* ................contact page end.............. */
+        /* ................sign up page start................ */
+        
+        #sign_up {
+            padding-top: 220px;
+            padding-bottom: 50px;
+            background: #0b001b;
+            margin-top: -205px;
+            background: url(../images/06_Sign_up_Page.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .sign_up_text h1 {
+            font-size: 28px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            line-height: 30px;
+            padding-bottom: 5px;
+        }
+        
+        .sign_up_text p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        
+        .sign_up_text p::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: -20px;
+            width: 60px;
+            height: 3px;
+            background: #fff;
+            border-radius: 2px;
+        }
+        
+        .sign_up_form .name_input {
+            margin-top: 60px;
+        }
+        
+        .full_name_input input {
+            width: 100%;
+            margin-bottom: 50px;
+            padding: 15px 30px 15px 0;
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+        }
+        
+        .full_name_input input::placeholder {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .main_sign_up .full_name_input {
+            position: relative;
+        }
+        
+        .main_sign_up .full_name_input i {
+            position: absolute;
+            right: 20px;
+            top: 18%;
+            color: #fff;
+        }
+        
+        .fas.fa-envelope.eml {
+            margin-right: -15px;
+        }
+        
+        .fas.fa-lock.eml {
+            margin-right: -15px;
+        }
+        
+        .main_sign_up button {
+            padding: 14px 30px;
+            background-image: linear-gradient(#9e4efc, #570dc8);
+            text-shadow: 3px 3px 2px #000000;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Anton', sans-serif;
+            box-shadow: 0px 5px 0px 0px #3a0090;
+            text-shadow: 5px 5px 0px #5813b8cc;
+            width: 100%;
+            border: 0;
+            margin-bottom: 25px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .main_sign_up button:hover {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            box-shadow: 0px 5px 0px 0px #661355;
+        }
+        
+        .main_sign_up button:focus {
+            outline: 0;
+        }
+        
+        .main_sign_up p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+            display: inline-block;
+            line-height: 50px;
+        }
+        
+        .main_sign_up p a {
+            color: #ff39dc;
+            text-decoration: none;
+        }
+        
+        .rgstr_with span {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+        }
+        
+        .rgstr_with a {
+            position: relative;
+        }
+        
+        .rgstr_with i {
+            font-size: 16px;
+            color: #fff;
+            height: 50px;
+            width: 50px;
+            background-image: linear-gradient(#9e4efc, #570dc8);
+            text-shadow: 3px 3px 2px #000;
+            box-shadow: 0px 5px 0px 0px #3a0090;
+            text-align: center;
+            line-height: 50px;
+            margin-left: 15px;
+            cursor: pointer;
+            transition: 0.5s;
+            border-radius: 5px;
+        }
+        
+        .rgstr_with i:hover {
+            background-image: linear-gradient(#ff39dc, #a60084);
+            box-shadow: 0px 5px 0px 0px #661355;
+        }
+        
+        .rgstr_with i:after {
+            position: absolute;
+            content: "";
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 50%;
+            background: #330080;
+        }
+        
+        .rgstr_with a:last-child i:after {
+            display: none;
+        }
+        /* ................sign up page end................ */
+        /* ................error page start................ */
+        
+        #error {
+            padding: 90px 0;
+            background: #150035;
+        }
+        
+        .error_button {
+            margin-top: 50px;
+        }
+        /* ................error page end................ */
