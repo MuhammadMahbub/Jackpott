@@ -16,6 +16,26 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: false,
         dots: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 424,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 
 });

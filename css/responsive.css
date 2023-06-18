@@ -1,0 +1,255 @@
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (max-width: 1399px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+    /* --- home page start ---- */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 5px;
+        font-size: 18px;
+    }
+    .banner_text h1 {
+        font-size: 250px;
+        margin-top: -35px;
+    }
+    #faq .btn-link {
+        font-size: 18px;
+    }
+    .countdown_part{
+        margin-top: 0;
+        margin-left: 12px;
+    }
+    #unlock {
+         padding-bottom: 50px;
+    }
+    /* ---------home page end----- */
+
+    /* ----about page start------- */
+    .unlock_text {
+        padding-top: 0;
+    }
+    #about_games {
+        padding-top: 50px;
+    }
+    .security_icon p {
+        padding-top: 0;
+    }
+    /* ----about page end------- */
+
+    /* sign up page start */
+    #sign_up {
+        background-position-x: 25%;
+    }
+    .sign_up_part {
+        width: 75%;
+        margin-left: auto;
+    } 
+    /* sign up page end */
+}
+
+@media screen and (max-width: 991px) {
+    /* home page start */
+    h1 {
+        font-size: 32px !important;
+    }
+    .banner_image, .unlock_img{
+        width: 60%;
+        margin: auto;
+    }
+    .banner_text {
+        margin: auto;
+        margin-top: 25px;
+    }
+    .banner_image img {
+        margin-left: 0;
+    }
+    .register {
+        margin-bottom: 10px;
+    } 
+    .casino_game {
+        margin-bottom: 25px;
+    } 
+    .plan {
+        margin-bottom: 70px;
+    }
+    .payment{
+        margin-top: 25px;
+    }
+    .footer_about_icon a {
+        font-size: 16px;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        margin-right: 2px;
+    }
+    /* home page end */
+
+    /* ----about page start------- */
+    #about_banner {
+        padding: 50px 0 170px 0;
+    }
+    .unlock_img{
+        width: 40%;
+        margin: auto;
+    }
+    .about_casino_overlay h2 {
+        top: 25%;
+        font-size: 18px;
+    }
+    .about_casino_overlay button {
+        bottom: -7%;
+    }
+    /* ----about page end------- */
+
+    /* contact page start */
+    .cntct_icon i {
+        padding: 20px;
+    }
+    .cntct_address p {
+        font-size: 16px;
+    }
+    /* contact page end */
+
+    /* ----pricing page start------- */
+    #pricing_plan {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    /* ----pricing page end------- */
+
+    /* sign up page start */
+    #sign_up, #register {
+        background: #0b001b;
+    }
+    .sign_up_part {
+        width: 100%;
+        margin-left: auto;
+    } 
+    /* sign up page end */
+}
+
+@media screen and (max-width: 767px) {
+    /* home page start */
+
+    /* home page end */
+
+    
+}
+
+@media screen and (max-width: 575px) {
+    /* home page start */
+    .banner_text h1 {
+        font-size: 200px;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    #games{
+        padding-top: 140px;
+        padding-bottom: 40px;
+    }
+    #pricing, #faq {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .casino_game {
+        width: 70%;
+        margin: auto;
+    }
+    .casino_game img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pricing_plan{
+        padding-top: 50px;
+    }
+    .faq_right{
+        margin-top: 30px;
+    }
+    .tournamnt_head{
+        margin-bottom: 0;
+    }
+    .footer_links, .security_info {
+        margin-top: 30px;
+    }
+    .b_b {
+        margin-top: 0;
+    }
+    .unlock_text .btn {
+        margin-left: -10px;
+    }
+    /* home page end */
+
+    /* ----about page start------- */
+    .about_casino_overlay h2{
+        top: 20%;
+        font-size: 16px;
+    }
+    .about_casino_overlay button {
+        bottom: -16%;
+    }
+    /* ----about page end------- */
+
+    /* contact page start */
+    #contact {
+        padding-top: 161px;
+        padding-bottom: 60px;
+    }
+    .cntct_address {
+        margin-left: -10px;
+    }
+    .cntct_address h1 {
+        font-size: 24px !important;
+    }
+    .cntct_address h1 {
+        margin-bottom: 5px;
+    }
+    .cntct_address p {
+        margin-bottom: 0;
+    }
+    /* contact page end */
+}
+
+@media screen and (max-width: 423px) {
+    /* home page start */
+
+    /* home page end */
+
+    /* ----about page start------- */
+    .about_casino_game {
+        width: 70%;
+        margin: auto;
+    }
+    .about_casino_overlay h2 {
+        top: 33%;
+    }
+    .about_casino_overlay button {
+        bottom: 0;
+    }
+    /* ----about page end------- */
+
+    /* contact page start */
+    
+    /* contact page end */
+}
+
+@media screen and (max-width: 374px) {
+    .navbar-brand {
+        height: 75px;
+        width: 150px;
+    }
+    .payment img {
+        width: 14%;
+    }
+    .about_casino_overlay h2 {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 323px) {
+
+}
