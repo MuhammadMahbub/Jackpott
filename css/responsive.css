@@ -56,6 +56,9 @@
     h1 {
         font-size: 32px !important;
     }
+    .banner_text h1 {
+    font-size: 250px !important;
+    }
     .banner_image, .unlock_img{
         width: 60%;
         margin: auto;
@@ -144,9 +147,9 @@
 @media screen and (max-width: 575px) {
     /* home page start */
     .banner_text h1 {
-        font-size: 200px;
-        margin-top: -30px;
-        margin-bottom: 10px;
+        font-size: 150px !important;
+        margin-top: -20px;
+        margin-bottom: 20px;
     }
     #games{
         padding-top: 140px;
